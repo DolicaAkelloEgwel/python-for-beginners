@@ -1,4 +1,5 @@
-#set text(font: "DM Sans")
+#set page(paper: "a5")
+#set text(font: "Noto Sans")
 
 #let date = datetime.today()
 
@@ -7,10 +8,6 @@
 Last updated #date.display("[day]-[month]-[year]").
 
 #set align(left)
-== Contents
-
-This is a test.
-
 == Calculator
 
 ```python
@@ -30,3 +27,23 @@ This is a test.
 == Comments
 
 == Variables
+
+== Strings
+
+== Naming Variables
+
+== Reassignment
+
+== Numbers
+
+== Lists
+
+== For Loops
+
+== Combining Things with `+`
+
+== Comprehensions
+
+== Libraries
+
+== Functions

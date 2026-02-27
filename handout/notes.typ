@@ -9,22 +9,28 @@
 == Calculator
 
 ```python
->>> 2 + 2 # Addition
+2 + 2
+```
 4
 
->>> 4 - 2 # Subtraction
+```python
+4 - 2
+```
 2
 
->>> 4 * 2 # Multiplication
+```python
+4 * 2
+```
 8
 
->>> 1 / 2 # Division
-0.5
+```python
+1 / 2
 ```
+0.5
 
 == Comments
 
-The interpreter ignores comments. They are a useful way of describing what code is doing to another coder or your future self.
+The interpreter ignores comments. They are a useful way of adding reminders about what a bit of code is for -- this can be for another coder or your future self.
 
 == Variables
 
@@ -32,9 +38,11 @@ Variables are like labelled boxes that store information. They are useful when w
 
 == Strings
 
-Strings are text information. They must be surrounded by quotation marks.
+Strings hold text information. They must be surrounded by quotation marks.
 
 == Naming Variables
+
+
 
 == Reassignment
 
@@ -45,9 +53,17 @@ Strings are text information. They must be surrounded by quotation marks.
 For loops make it easier to repeat an action with every item in a list.
 
 ```python
->>> my_list = [0, 1, 2, 3, 4, 5]
->>> for num in my_list:
-
+my_list = [0, 1, 2, 3, 4]
+for num in my_list:
+  print(num)
+```
+Output:
+```
+0
+1
+2
+3
+4
 ```
 
 == Combining Things with `+`
@@ -58,18 +74,20 @@ Comprehensions allow us to create a list and place items in that list all in one
 
 With a comprehension:
 ```python
->>> my_list = [i for i in range(10)]
->>> print(my_list)
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+my_list = [i for i in range(5)]
+print(my_list)
+```
+```
+[0, 1, 2, 3, 4]
 ```
 
 Without a comprehension:
 ```python
->>> my_list = []
->>> for i in range(10):
-      my_list.append(i)
+my_list = []
+for i in range(5):
+  my_list.append(i)
 >>> print(my_list)
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[0, 1, 2, 3, 4]
 ```
 
 == Libraries

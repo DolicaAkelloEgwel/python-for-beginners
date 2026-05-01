@@ -3,7 +3,7 @@
 #show: codly-init.with()
 
 #set page(paper: "a5")
-// #set text(font: "Noto Sans")
+#set text(font: "Noto Sans")
 #set text(size: 8pt)
 
 #codly(number-format: none)

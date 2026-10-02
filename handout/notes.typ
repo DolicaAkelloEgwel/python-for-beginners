@@ -24,22 +24,10 @@
 Python can be used as a calculator.
 
 ```python
-2 + 2
-```
-Output: `4`
-
-```python
-4 - 2
-```
-Output: `2`
-
-```python
-4 * 2
-```
-Output: `8`
-
-```python
-1 / 2
+print(2 + 2)
+print(4 - 2)
+print(4 * 2)
+print(1 / 2)
 ```
 Output: `0.5`
 
@@ -89,7 +77,7 @@ floors = ["Ground Floor", "1st Floor", "2nd Floor", "3rd Floor"]
 print(floors)
 ```
 
-We *index* a list when we wish to access a particular item from it. 
+We *index* a list when we wish to access a particular item from it.
 
 ```python
 print(floors[0])
